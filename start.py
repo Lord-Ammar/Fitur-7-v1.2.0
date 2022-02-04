@@ -6,6 +6,12 @@ print ("\033[1;92m_    ____ ____ _ _  _ ")
 print ("|    |  | | __ | |\ | ")
 print ("|___ |__| |__] | | \| ")
 
+	try:
+	except ModuleNotFoundError:
+		print("Module Data Belum Terinstall...")
+		time.sleep(2)
+		print("Install Module (Install Data Module)")
+
 x = "LordAmmar"
 y = "subscribe"
 def login():
